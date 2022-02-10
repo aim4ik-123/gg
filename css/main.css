@@ -1,0 +1,186 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #222
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 1170px;
+	/*позиционирование по центру*/
+	margin: 0 auto;
+}
+.header{
+  background: linear-gradient(168.33deg, #83DCC6 55.6%, rgba(255, 255, 255, 0.36) 91.2%);
+  padding-bottom: 300px;
+}
+header a {
+  color: #222;
+}
+.logo2 {
+  margin-right: 100px;
+  font-weight: bold;
+}
+.menu{
+   display: flex;
+   align-items: center;
+}
+.menu li a{
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu li {
+  margin-right: 50px;
+}
+.nav{
+  display: flex;
+  padding-top: 50px;
+}
+.btn{
+  position: absolute;
+  width: 245px;
+  height: 44px;
+  left: 370px;
+  top: 640px;
+  background: #4B4E6D;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #FFF;
+  display: inline;
+  letter-spacing: 0.3em;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.fon{/*главная страница*/
+  color: #222;
+  padding-top: 210px;
+}
+.fon h1{
+  font-size: 46px;
+}
+.fon p{
+  font-size: 36px;
+}
+.fon hr{
+  border: 8px solid #000000;
+}
+.plate{
+  background: url('../img/тарелка.svg') no-repeat right top;
+  position: absolute;
+  width: 512px;
+  height: 412px;
+  left: 1233px;
+  top: 40px;
+}
+.page p{
+  font-size: 36px;
+}
+.evidence{
+  font-size: 25px;
+  color: #222;
+}
+.img1{
+  float: left;
+  margin-right: 25px;
+}
+.text1 p{
+  padding-top: -5px;
+}
+.img2{
+  float: left;
+  margin-right: 25px;
+}
+.img3{
+  float:left;
+  margin-right: 25px;
+}
+.img4{
+  float:left;
+  margin-right: 25px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 370px;
+  top: 1415px;
+}
+.text4{
+  position: absolute;
+  float:left;
+  width: 770px;
+  height: 148px;
+  left: 490px;
+  top: 1360px;
+}
+.img5{
+  position:absolute;
+  float:left;
+  width: 100px;
+  height: 100px;
+  left: 370px;
+  top: 1550px;
+}
+.text5{
+  position: absolute;
+  float:left;
+  width: 771px;
+  height: 56px;
+  left: 490px;
+  top: 1555px;
+}
+.footer{
+  background: linear-gradient(16.57deg, #4B4E6D 5.48%, rgba(75, 78, 109, 0) 76.05%);
+  padding-bottom: 120px;
+}
+.feedback{
+  padding-top: 400px;
+}
+.feedback2{
+  font-size: 24px;
+  color: #000;
+  padding-top: 150px;
+}
+.feedback3{
+  color: #000;
+  font-size: 24px;
+  padding-top: 40px;
+}
+.feedback2 hr{
+  border: 2px solid #000000;
+  position: absolute;
+  width: 341px;
+  height: 0px;
+  left: 367px;
+  top: 2070px;
+}
+.feedback3 hr{
+  border: 2px solid #000000;
+  position: absolute;
+  width: 730px;
+  height: 0px;
+  left: 367px;
+  top: 2190px;
+}
+.task{
+  font-size: 14px;
+  color: #fff;
+  padding-top: 250px
+}
+.next2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1149px;
+  top: 2170px;
+  background: #84DCC6;
+  border-radius: 30px;
+}
